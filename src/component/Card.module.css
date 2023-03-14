@@ -1,0 +1,39 @@
+.card {
+    border: 1px solid black;
+    width: 50vw;
+    height: 18em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #4f494929;
+    backdrop-filter: blur(10px);
+    padding: 1em;
+}
+
+.card h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(36, 63, 27);
+}
+
+.card button {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(171, 175, 175);
+    color: rgb(122, 131, 131);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: rgb(165, 165, 165);
+    color: aliceblue;
+}
+
+.card p {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(36, 63, 27);
+}

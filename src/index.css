@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background-image: url(./arvore.jpg);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  background-position: left;
+  background-size: cover; 
+}
+/* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
